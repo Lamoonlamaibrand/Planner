@@ -11,7 +11,7 @@ document.getElementById('contentForm').addEventListener('submit', function(e) {
   };
 
   // ส่งข้อมูลไปที่ Google Apps Script Web App
-  fetch('https://script.google.com/macros/s/AKfycbxtHeXPT9z2S9G7tEMTP-TlPsxUszdCUp7TWWdlF8MFUdQcKDfIw2jZCTl3WzIuuOzH/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbwaG510udysoow2eCy8PkM99QkUVYqNH7c3gyjMmIY/dev', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
