@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LamoonLamai Content Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>🗂️ สร้างตารางหัวข้อคอนเทนต์</h2>
+
+  <form id="contentForm">
+    <div class="form-row">
+      <input type="number" name="index" class="short" placeholder="ลำดับ" required>
+      <input type="text" name="title" class="wide" placeholder="หัวข้อการทำคอนเทนต์" required>
+    </div>
+    <input type="url" name="exampleLink" class="long" placeholder="ลิงก์ตัวอย่าง (https://...)" required>
+    <input type="date" name="postDate" class="long" required>
+    <select name="status">
+      <option value="ยังไม่เริ่ม">ยังไม่เริ่ม</option>
+      <option value="กำลังทำ">กำลังทำ</option>
+      <option value="ทำเสร็จแล้ว">ทำเสร็จแล้ว</option>
+    </select>
+    <button type="submit">เพิ่มลงตาราง</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
